@@ -17,10 +17,9 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-   models: {
-     connection: 'mongo',
-     migrate: 'alter'
-   },
+  // models: {
+  //   connection: 'someMysqlServer'
+  // },
 
   /***************************************************************************
    * Set the port in the production environment to 80                        *
